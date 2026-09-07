@@ -1,148 +1,174 @@
 {
   "id": "throat_hoarseness_vocal_polyp",
   "title": "The Painter's Hoarse Voice",
-  "subtitle": "Hoarseness, vocal fold polyp, and phonomicrosurgery",
-  "description": "Voice handicap assessment, GRBAS scoring, vocal fold polyp differentiation, KTP laser, microflap technique, and postoperative care.",
+  "subtitle": "Dysphonia, vocal fold polyp, and phonomicrosurgery",
+  "description": "A six-step case following a job-site painter with persistent hoarseness from the decision to examine the larynx through perceptual and patient-reported assessment, stroboscopic differentiation of benign vocal fold lesions, microflap excision, and evidence-based postoperative care.",
   "estimatedTime": "20-30 min",
   "difficulty": "Intermediate",
   "tags": [
     "Laryngology",
-    "Hoarseness",
+    "Dysphonia",
     "Vocal fold polyp",
-    "Phonomicrosurgery"
+    "Phonomicrosurgery",
+    "Cognitive error: premature closure",
+    "Cognitive error: empiric treatment before diagnosis"
   ],
   "steps": [
     {
-      "title": "Step 1/6: Subjective Voice Assessment",
-      "scenario": "A 57-year-old male painter comes to clinic. He has smoked 1 pack per day for more than 40 years. He reports hoarseness for several years. To quantify how this voice problem affects his daily work and social life, you ask him to complete the Chinese version of the Voice Handicap Index-10 (VHI-10).",
-      "media": "Load image: Example of the Chinese VHI-10 questionnaire",
-      "question": "According to Taiwanese research, what minimal clinically important difference (MCID) on the Chinese VHI-10 indicates a meaningful clinical improvement during future treatment?",
+      "title": "Step 1/6: Deciding When to Look at the Larynx",
+      "scenario": "A 52-year-old house painter presents with hoarseness for 6 months. He works on active construction sites and routinely shouts over compressor noise. He smokes about half a pack per day and has done so for 20 years. His primary care physician diagnosed reflux laryngitis and treated him with omeprazole 20 mg twice daily for 8 weeks, followed by a methylprednisolone dose pack. Neither helped. The larynx has never been examined. He denies dysphagia, odynophagia, otalgia, and weight loss. Neck examination reveals no palpable mass.",
+      "media": "",
+      "question": "What is your next step?",
       "options": [
         {
           "id": "A",
-          "text": "(A) 10 points"
+          "text": "(A) Extend the proton pump inhibitor trial to 12 weeks with dietary and behavioral reflux precautions, then reassess."
         },
         {
           "id": "B",
-          "text": "(B) 4 points",
-          "correct": true
+          "text": "(B) Obtain contrast-enhanced CT of the neck to exclude a laryngeal mass before proceeding to any endoscopic examination."
         },
         {
           "id": "C",
-          "text": "(C) 1 point"
+          "text": "(C) Perform laryngoscopy today.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "(D) Refer to a speech-language pathologist for voice therapy, and examine the larynx only if therapy fails."
         }
       ],
-      "feedback": "Correct answer: B\n\nAttending tip: VHI-10 is an excellent questionnaire for assessing the patient's subjective voice handicap. Research has set the optimal MCID for the Chinese VHI-10 at 4 points. If a patient's score improves by more than 4 points after voice therapy or surgery, the treatment can be considered positively responsive."
+      "feedback": "Correct answer: C\n\nThe combination of: • Hoarseness persisting 6 months • Current smoker, 10 pack-year history • Two empiric treatments given without visualization creates high suspicion for a structural laryngeal lesion, but neither the history nor the failure of treatment establishes a diagnosis. The AAO-HNSF guideline permits laryngoscopy at any point in dysphonia and requires it when symptoms have not resolved or improved within 4 weeks, or sooner if a serious cause is suspected. This patient crossed both thresholds months ago.\n\n(A) The guideline recommends against routinely prescribing antireflux medication for isolated dysphonia attributed to reflux without visualizing the larynx. Eight weeks of twice-daily therapy has already failed; extending it repeats the error rather than correcting it.\n(B) The guideline explicitly recommends against CT or MRI for a primary voice complaint before the larynx has been seen. Imaging first adds cost and radiation and will not characterize a mucosal lesion, which is what most dysphonia turns out to be.\n(D) Laryngoscopy should precede voice therapy. Therapy may well be the right treatment, but not before you know what you are treating.\n\nCognitive error: premature closure. A plausible first diagnosis was accepted, treated twice, and never tested against the one examination that could refute it. The corticosteroid burst is a second deviation in its own right, since the guideline also advises against steroids before visualization, partly because a transient response falsely reassures everyone involved.\n\nkeypoint: Empiric treatment estimates the cause. Laryngoscopy establishes it.\n\nReference:\nStachler RJ, Francis DO, Schwartz SR, et al. Clinical Practice Guideline: Hoarseness (Dysphonia) (Update). Otolaryngol Head Neck Surg. 2018;158(1_suppl):S1-S42.\n2026 note: the 2018 update replaced the 2009 original and remains the current published AAO-HNSF dysphonia CPG."
     },
     {
-      "title": "Step 2/6: Perceptual Evaluation: GRBAS",
-      "scenario": "At follow-up, you perform standard auditory-perceptual voice evaluation and record his voice score as GRB: 323.",
-      "media": "Load image: GRBAS scoring chart with parameter definitions",
-      "question": "In the GRBAS system, what does B:3 indicate, and what vocal fold physiology does it correspond to?",
+      "title": "Step 2/6: Establishing a Baseline Patient-Reported Outcome",
+      "scenario": "Before the examination you have him complete the Voice Handicap Index-10 (VHI-10). His total score is 24 of 40. He tells you the voice problem is affecting his ability to direct his crew across a noisy site. You intend to repeat the instrument after treatment to judge response.",
+      "media": "Load image: Completed VHI-10 form",
+      "question": "What change in VHI-10 total score represents the minimal important difference in a general adult dysphonia population?",
       "options": [
         {
           "id": "A",
-          "text": "(A) Roughness; extremely irregular vocal fold vibration."
+          "text": "(A) 4 points"
         },
         {
           "id": "B",
-          "text": "(B) Strain; excessive effort during phonation."
+          "text": "(B) 6 points",
+          "correct": true
         },
         {
           "id": "C",
-          "text": "(C) Breathiness; an airy voice caused by incomplete closure of the vocal folds.",
-          "correct": true
+          "text": "(C) 11 points"
+        },
+        {
+          "id": "D",
+          "text": "(D) No minimal important difference has been established; the VHI-10 can only be reported as a severity band."
         }
       ],
-      "feedback": "Correct answer: C\n\nAssessment interpretation: GRBAS stands for Grade, Roughness, Breathiness, Asthenia, and Strain. GRB 323 indicates severe overall dysphonia and severe breathiness, strongly suggesting a vocal fold lesion that prevents complete glottic closure and allows substantial air leakage during phonation."
+      "feedback": "Correct answer: B\n\nThe VHI-10 is 10 items scored 0 to 4, total 0 to 40. Misono's anchor-based study of 273 voice clinic patients found a 6-point change corresponded to a moderate patient-reported change, while smaller changes could not be distinguished from no change at all. Against the Arffa normative bands — • Normal 0-10 • Mild 11-20 • Moderate 21-30 • Severe 31-40 — this patient's score of 24 sits in the moderate band.\n\n(A) 4 points is a real published MCID, and it comes from Rosen's own group, but it was derived specifically in vocal fold paralysis. Disease-specific MCIDs are not transferable: a population with a different baseline distribution and different treatment effect sizes yields a different threshold. This is the most instructive error in the step, because it is the right number carried over from the wrong population. The same paper notes an older clinical consensus figure of 5 that predates any anchor-based derivation.\n(C) 11 is the abnormality cutoff separating the normal band from the mild band. It is a cross-sectional threshold, not a change score, and confusing the two is a common error in submitted abstracts.\n(D) An MID has been established, and reporting only bands discards the instrument's sensitivity to change within a band.\n\nkeypoint: A cutoff tells you who is abnormal. An MID tells you who has improved. They are different numbers.\n\nReference:\nRosen CA, Lee AS, Osborne J, Zullo T, Murry T. Development and validation of the Voice Handicap Index-10. Laryngoscope. 2004;114(9):1549-1556.\nMisono S, Yueh B, Stockness AN, House ME, Marmor S. Minimal Important Difference in Voice Handicap Index-10. JAMA Otolaryngol Head Neck Surg. 2017;143(11):1098-1103.\nArffa RE, Krishna P, Gartner-Schmidt J, Rosen CA. Normative values for the Voice Handicap Index-10. J Voice. 2012;26(4):462-465.\nYoung VN, Jeong K, Rothenberger SD, Gillespie AI, Smith LJ, Gartner-Schmidt JL, Rosen CA. Minimal clinically important difference of voice handicap index-10 in vocal fold paralysis. Laryngoscope. 2018;128(6):1419-1424."
     },
     {
-      "title": "Step 3/6: Stroboscopy and Benign Lesion Differentiation",
-      "scenario": "You arrange stroboscopy and find a right anterior one-third non-hemorrhagic vocal fold polyp. The left vocal fold also has telangiectasia.",
-      "media": "Load image: Endoscopic image showing a unilateral exophytic vocal fold polyp",
-      "question": "Compared with vocal fold nodules, which statement about vocal fold polyps is most accurate?",
+      "title": "Step 3/6: Auditory-Perceptual Evaluation",
+      "scenario": "You perform a standard auditory-perceptual evaluation and record G3 R2 B3 A1 S1. A reference chart for the scale is available to you.",
+      "media": "Load image: GRBASI reference chart",
+      "question": "Given this profile, what should you expect to find on laryngeal examination?",
       "options": [
         {
           "id": "A",
-          "text": "(A) They are usually bilateral symmetric lesions, and most resolve with conservative voice therapy alone."
+          "text": "(A) Muscle tension dysphonia: supraglottic compression during phonation with no mucosal lesion on the vibratory margin."
         },
         {
           "id": "B",
-          "text": "(B) They may be unilateral or bilateral, often appear clear and exophytic or heme-colored, and usually respond poorly to voice therapy.",
+          "text": "(B) A unilateral lesion on the vibratory margin holding the folds apart and preventing complete glottic closure.",
           "correct": true
         },
         {
           "id": "C",
-          "text": "(C) They are cup-shaped depressions caused by repeated impact from the contralateral lesion, called a cup-and-saucer deformity."
+          "text": "(C) Bilateral vocal fold bowing from atrophy, with a spindle-shaped glottic gap."
+        },
+        {
+          "id": "D",
+          "text": "(D) Unilateral vocal fold paralysis with an immobile fold and a wide glottic gap."
         }
       ],
-      "feedback": "Correct answer: B\n\nDiagnostic point: Vocal fold polyps may be unilateral or bilateral and often appear clear and exophytic or heme-colored. Unlike nodules, polyps usually respond poorly to voice therapy alone. That is why this patient failed steroid and reflux medication treatment and eventually needed surgery."
+      "feedback": "Correct answer: B\n\nRead the pattern, not any single number. This profile shows • B3 severe audible air escape • R2 moderate vibratory irregularity • A1 essentially no weakness • S1 essentially no excess effort. Severe air escape without weakness and without hyperfunction points to something physically holding the folds apart during vibration, while the moderate roughness adds asymmetry between the two folds. Together that predicts a unilateral mass on the vibratory margin — which is what you should be looking for at stroboscopy.\n\n(A) Muscle tension dysphonia is driven by excessive laryngeal effort, so Strain would be elevated. It is rated 1 here. Strain is the discriminating parameter, and its absence argues directly against a hyperfunctional cause.\n(C) Vocal fold atrophy produces a thin, weak voice: Asthenia would rise alongside Breathiness. Asthenia is 1, which argues against a hypofunctional glottis. This is a common misread, because both atrophy and a mass produce breathiness — the difference is whether weakness accompanies it.\n(D) The hardest distractor. Paralysis does cause marked breathiness from a large glottic gap, but the gap is inefficient, so it characteristically produces asthenia and reduced loudness as well. A1 argues against it. Full vocal fold mobility on the next examination settles the question.\n\nChart note: the reference chart shown is the extended GRBASI variant, which adds Instability (I) for change in voice quality over time. Classic GRBAS as recorded here uses five parameters, each rated 0 normal, 1 slight, 2 moderate, 3 severe. Report all five; abbreviating to a subset discards the negative findings, which in this case are what exclude options A, C, and D. CAPE-V is the ASHA consensus alternative using 100 mm visual analog scales, modestly more sensitive to small within-patient change, while GRBAS is faster and remains the scale most otolaryngologists document.\n\nkeypoint: One elevated parameter names the percept. The pattern across parameters names the cause.\n\nReference:\nHirano M. Clinical Examination of Voice. Springer-Verlag; 1981. (Origin of the GRBAS scale.)\nYamauchi EJ, Imaizumi S, Maruyama H, Haji T. Perceptual evaluation of pathological voice quality: a comparative analysis between the RASATI and GRBASI scales. Logoped Phoniatr Vocol. 2010;35:121-128. (Source of the reference chart shown.)\nAmerican Speech-Language-Hearing Association, Special Interest Division 3. Consensus Auditory-Perceptual Evaluation of Voice (CAPE-V). 2002."
     },
     {
-      "title": "Step 4/6: Vascular Lesions and KTP Laser",
-      "scenario": "You notice telangiectasia on the patient's left vocal fold. These vascular lesions often run perpendicular to the long axis of the vocal fold and can bleed after phonotrauma.",
-      "media": "Load image: Venous lakes and telangiectasia on the vocal fold surface",
-      "question": "If laser treatment is chosen for vocal fold telangiectasia, which laser is preferred because it is selectively absorbed by hemoglobin and destroys vessels while reducing thermal injury to surrounding mucosa?",
+      "title": "Step 4/6: Stroboscopy and Differentiation of Benign Lesions",
+      "scenario": "You perform laryngoscopy with stroboscopy. There is a solitary, translucent, exophytic lesion on the right vocal fold at the junction of the anterior and middle thirds. The left fold is smooth. Both folds are fully mobile. Glottic closure is incomplete with an hourglass configuration around the lesion. The mucosal wave is present and symmetric, including across the lesion itself.",
+      "media": "Load image: Videostroboscopy, right vocal fold",
+      "question": "Which diagnosis best fits these findings, and what does it predict about treatment?",
       "options": [
         {
           "id": "A",
-          "text": "(A) CO2 laser"
+          "text": "(A) Vocal fold nodules: bilateral, symmetric lesions at the mid-membranous point, which usually resolve with voice therapy alone."
         },
         {
           "id": "B",
-          "text": "(B) KTP laser",
+          "text": "(B) Vocal fold polyp: unilateral or bilateral, translucent or hemorrhagic and exophytic, with the mucosal wave typically preserved, and usually responding poorly to voice therapy alone.",
           "correct": true
         },
         {
           "id": "C",
-          "text": "(C) Nd:YAG laser"
+          "text": "(C) Reinke's edema: diffuse polypoid change across the full membranous length of both folds, strongly smoking-associated, characteristically lowering habitual pitch."
+        },
+        {
+          "id": "D",
+          "text": "(D) Intracordal cyst: a subepithelial encapsulated lesion, typically with a reduced mucosal wave over the lesion and often a contralateral reactive lesion."
         }
       ],
-      "feedback": "Correct answer: B\n\nProcedure interpretation: Benign vocal fold lesions can often be treated with cold instruments. For vascular lesions, however, KTP laser has a major advantage because its wavelength is highly and selectively absorbed by hemoglobin. This produces an angiolytic effect while greatly reducing thermal injury to surrounding vocal fold tissue."
+      "feedback": "Correct answer: B\n\nThe findings here: • Solitary, unilateral, translucent and exophytic • Mucosal wave preserved and symmetric across the lesion • Hourglass glottic closure defect. Because the lesion sits superficially and does not tether the deeper layers, the wave is preserved, and the hourglass closure explains the severe breathiness from Step 3. Polyps generally do not resolve with voice therapy alone, which is why medical therapy failed and why surgery is now a reasonable discussion — with voice therapy as an adjunct addressing the phonotraumatic behavior that would otherwise reproduce the lesion.\n\nEach distractor is a genuine benign vocal fold lesion, and telling them apart is the skill being tested.\n(A) Nodules are bilateral and broadly symmetric, sit at the mid-membranous point where impact stress is greatest, and are the lesion that does respond well to voice therapy. A unilateral exophytic lesion is not a nodule.\n(C) Reinke's edema is diffuse rather than focal and involves the whole membranous fold bilaterally. Its hallmark symptom is a dropped habitual pitch, which this patient does not describe.\n(D) The hardest distractor and the most clinically important. Cyst versus polyp is a real discrimination that changes the operative plan, and the stroboscopic discriminator is the mucosal wave: a cyst is subepithelial, tethers the cover, and reduces the wave over the lesion. Here the wave is preserved.\n\nkeypoint: Appearance suggests the diagnosis. The mucosal wave decides it.\n\nReference:\nHirano M. Morphological structure of the vocal cord as a vibrator and its variations. Folia Phoniatr (Basel). 1974;26(2):89-94. (Body-cover model; the physiological basis for interpreting the mucosal wave.)\nNote: no single trial establishes the stroboscopic criteria distinguishing polyp, nodule, Reinke's edema, and cyst. These rest on consensus diagnostic features rather than a named study."
     },
     {
-      "title": "Step 5/6: Phonomicrosurgery and Microflap",
-      "scenario": "The patient chooses surgery, and you arrange microlaryngosurgery with biopsy. Because of his 40-year smoking history, biopsy is necessary to exclude keratosis or malignant degeneration. During surgery, you use a microflap approach.",
-      "media": "Load image: Microflap approach showing epithelial incision beside the lesion",
-      "question": "When using a microflap approach to remove a submucosal lesion such as a polyp, what is the most important surgical principle?",
+      "title": "Step 5/6: Phonomicrosurgery and the Microflap",
+      "scenario": "After counseling, the patient elects surgery. In the operating room you complete a subepithelial infusion and are planning your epithelial incision.",
+      "media": "",
+      "question": "Which describes the correct technique and its governing principle?",
       "options": [
         {
           "id": "A",
-          "text": "(A) Widely remove the normal tissue around the lesion to ensure no residual lesion remains."
+          "text": "(A) Excise the lesion together with a margin of surrounding normal mucosa, to ensure no microscopic residual lesion is left behind."
         },
         {
           "id": "B",
-          "text": "(B) Cut deeply down to the vocal ligament and muscle to completely excavate the lesion."
+          "text": "(B) Incise the epithelium immediately lateral to the lesion, dissect within the superficial lamina propria to deliver the lesion, then redrape the preserved epithelium over the defect.",
+          "correct": true
         },
         {
           "id": "C",
-          "text": "(C) Make the incision as close to the lesion as possible, stay in the most superficial plane possible, and minimize injury to surrounding tissue.",
-          "correct": true
+          "text": "(C) Carry the dissection down to the vocal ligament and thyroarytenoid muscle, to ensure the submucosal component is completely excavated."
+        },
+        {
+          "id": "D",
+          "text": "(D) Ablate the lesion with the CO2 laser, which achieves hemostasis and removes the need to handle a specimen."
         }
       ],
-      "feedback": "Correct answer: C\n\nSurgical pitfall: The spirit of phonomicrosurgery is preserving normal mucosa. The key principles of the microflap approach are to incise the epithelium close to the lesion, dissect in as superficial a plane as possible, and minimize disruption of surrounding tissue. Excessive removal causes vocal fold scarring and permanent voice impairment."
+      "feedback": "Correct answer: B\n\nHirano's model groups the vocal fold into three mechanical units: • Cover — epithelium and superficial lamina propria, which generates the mucosal wave • Transition — the vocal ligament • Body — the thyroarytenoid muscle. Scar in the superficial lamina propria is functionally irreversible, so the microflap places the incision lateral to the lesion, keeps dissection in the most superficial plane that will deliver it, and redrapes rather than resects epithelium. Send the specimen: this patient is a current smoker, and keratosis or dysplasia can present as an exophytic lesion, so the diagnosis is not secure until histopathology confirms it.\n\n(A) A margin of normal mucosa is oncologic thinking applied to a benign lesion. It removes healthy vibratory tissue for no benefit.\n(C) Dissecting to the ligament converts a cover-layer problem into a body-layer injury and reliably produces scar and permanent dysphonia.\n(D) Ablation destroys the specimen, so histology is lost, and it delivers non-selective thermal energy to the layer you most need to protect. Note the historical form of this same error, vocal cord stripping, which was standard for decades and was abandoned precisely because removing the superficial lamina propria across the vibratory segment produces severe, permanent voice impairment.\n\nkeypoint: Remove the lesion, keep the cover. Scar in the superficial lamina propria cannot be undone.\n\nReference:\nHirano M. Morphological structure of the vocal cord as a vibrator and its variations. Folia Phoniatr (Basel). 1974;26(2):89-94.\nNote: the microflap technique itself is established through phonosurgical technique literature and consensus rather than a single randomized trial."
     },
     {
-      "title": "Step 6/6: Postoperative Care and Complication Prevention",
-      "scenario": "The surgery is completed smoothly. The polyp is fully removed and the microflap is well repositioned. You visit the ward to provide discharge instructions.",
-      "media": "Load image: Postoperative voice rest and hydration counseling",
-      "question": "Which postoperative instruction after microlaryngosurgery is correct and must be explained to the patient?",
+      "title": "Step 6/6: Postoperative Care and Counseling",
+      "scenario": "Surgery is uneventful. The polyp is removed and the microflap is well redraped. Histopathology returns a benign vocal fold polyp with subepithelial edema and no dysplasia. You see him before discharge.",
+      "media": "",
+      "question": "Which postoperative plan and counseling is most appropriate?",
       "options": [
         {
           "id": "A",
-          "text": "(A) No water for 3 days after surgery to protect the vocal fold wound."
+          "text": "(A) Complete voice rest for 4 weeks, nothing by mouth for 72 hours, and a course of antibiotics to protect the healing vibratory margin."
         },
         {
           "id": "B",
-          "text": "(B) Voice rest for 2-14 days, adequate hydration, and counseling about temporary lingual nerve injury from intubation or suspension, such as tongue numbness or taste change.",
+          "text": "(B) Complete voice rest for about 3 days, then graduated voice use with speech-language pathology guidance; hydration; smoking cessation support; work on vocal load at the job site; and counseling on transient tongue numbness or taste change from suspension and on the small proportion of patients whose voice does not improve.",
           "correct": true
         },
         {
           "id": "C",
-          "text": "(C) Voice recovery is guaranteed to be 100%, with no risk of worsening."
+          "text": "(C) No voice restriction and immediate return to full work duties, since the lesion was benign and completely excised."
+        },
+        {
+          "id": "D",
+          "text": "(D) Complete voice rest for about 3 days, plus a routine proton pump inhibitor and a corticosteroid taper for every patient to protect the healing wound."
         }
       ],
-      "feedback": "Correct answer: B\n\nClinical counseling: Adequate voice rest for 2-14 days and good hydration are essential after surgery. Proton pump inhibitors are often used to prevent reflux irritation of the wound. Patients must also be informed that suspension can compress nerves and cause temporary tongue numbness or taste change from lingual nerve injury, usually improving within 1 month. About 1-2% of patients may have no improvement or even worse voice after surgery."
+      "feedback": "Correct answer: B\n\nVoice rest duration is one of the few questions in phonomicrosurgery with randomized data behind it, and the data do not favor longer: • Kaneko randomized microflap patients to 3 versus 7 days of complete rest and found 3 days followed by early voice therapy produced better recovery of vibratory properties at 6 months • Fan compared 7 days complete rest against 3 days complete plus 4 days relative rest and found comparable improvement at one month. Controlled early phonatory stimulation appears to favor organized healing in the superficial lamina propria over disorganized scar. The behavioral work matters as much as the surgery: this lesion came from shouting across a noisy job site, and the operation does not change that exposure.\n\n(A) Four weeks of complete voice rest is contradicted by the randomized evidence above, and prolonged silence causes deconditioning, compensatory muscle tension, and poor adherence. Nothing by mouth and routine antibiotics have no role.\n(C) Overcorrects in the other direction and abandons both the graduated return and the vocal load management that prevents recurrence.\n(D) The partial-credit trap. The voice rest component is correct, which makes the option feel right, but routine acid suppression and a steroid taper for every patient repeats the Step 1 error of treating empirically without an indication. This patient has no reflux findings and no reason for steroids.\n\nCounsel before surgery, not after, that suspension can cause transient tongue numbness or altered taste from lingual or hypoglossal neuropraxia, usually resolving within a month, and that a small proportion of patients gain no improvement and a few are worse. Repeating the VHI-10 closes the loop from Step 2, where a decrease of at least 6 points represents a meaningful response.\n\nkeypoint: Short voice rest with early therapy beats long silence. Surgery removes the lesion; behavior change prevents the next one.\n\nReference:\nKaneko M, Shiromoto O, Fujiu-Kurachi M, Kishimoto Y, Tateya I, Hirano S. Optimal Duration for Voice Rest After Vocal Fold Surgery: Randomized Controlled Clinical Study. J Voice. 2017;31(1):97-103.\nFan RS, Yiu Y, Kulesz PA, Dueppen A, Procter T, Goodwin ME, Thekdi AA, Joshi A. Clinical Voice Outcomes for Two Voice Rest Protocols after Phonomicrosurgery. Laryngoscope. 2024;134(6):2812-2818."
     }
   ]
 }
